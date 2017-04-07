@@ -122,17 +122,27 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
 
-                <Button
+                <info.hoang8f.widget.FButton
+                    android:textColor="@android:color/white"
+                    app:buttonColor="@color/colorPrimary"
+                    app:shadowEnabled="true"
+                    app:shadowHeight="1dp"
+                    app:cornerRadius="5dp"
+                    android:padding="10dp"
                     android:id="@+id/backButton"
                     android:layout_width="150dp"
                     android:layout_height="wrap_content"
                     android:layout_alignParentEnd="true"
                     android:gravity="center"
-
                     android:text="Submit new changes"
                     android:textSize="10sp" />
 
-                <Button
+                <info.hoang8f.widget.FButton
+                    app:shadowEnabled="true"
+                    app:shadowHeight="1dp"
+                    app:cornerRadius="5dp"
+                    android:padding="10dp"
+                    android:textColor="@android:color/white"
                     android:id="@+id/changePassword"
                     android:layout_width="150dp"
                     android:layout_height="wrap_content"
@@ -197,7 +207,14 @@
                 android:id="@+id/buttonLayout2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
-                <Button
+
+                <info.hoang8f.widget.FButton
+                    android:textColor="@android:color/white"
+                    app:buttonColor="@color/colorPrimary"
+                    app:shadowEnabled="true"
+                    app:shadowHeight="1dp"
+                    app:cornerRadius="5dp"
+                    android:padding="10dp"
                     android:gravity="center"
                     android:id="@+id/updatePassword"
                     android:layout_width="150dp"
@@ -206,7 +223,13 @@
 
                     android:layout_alignParentEnd="true" />
 
-                <Button
+                <info.hoang8f.widget.FButton
+                    android:textColor="@android:color/white"
+                    app:buttonColor="@color/colorPrimary"
+                    app:shadowEnabled="true"
+                    app:shadowHeight="1dp"
+                    app:cornerRadius="5dp"
+                    android:padding="10dp"
                     android:gravity="center"
                     android:id="@+id/backbutton"
                     android:layout_width="150dp"

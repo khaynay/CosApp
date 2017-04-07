@@ -13,9 +13,11 @@ import com.ecoach.cosapp.DataBase.AppInstanceSettings;
 import com.ecoach.cosapp.DataBase.User;
 import com.ecoach.cosapp.R;
 
+import info.hoang8f.widget.FButton;
+
 public class ProfileEditActivity extends AppCompatActivity {
     EditText emailedt,phoneTxt,passwordTxt,confirmpassword,surname,firstname,locationDiscirption;
-    Button changePassword,backbutton;
+    FButton changePassword,backbutton;
     ViewFlipper viewFlipper;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -32,7 +34,7 @@ public class ProfileEditActivity extends AppCompatActivity {
         }
         viewFlipper=(ViewFlipper)findViewById(R.id.viewFlipper);
 
-        changePassword=(Button)findViewById(R.id.changePassword);
+        changePassword=(FButton)findViewById(R.id.changePassword);
         changePassword.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -42,7 +44,7 @@ public class ProfileEditActivity extends AppCompatActivity {
         });
 
 
-        backbutton=(Button)findViewById(R.id.backbutton);
+        backbutton=(FButton)findViewById(R.id.backbutton);
         backbutton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
