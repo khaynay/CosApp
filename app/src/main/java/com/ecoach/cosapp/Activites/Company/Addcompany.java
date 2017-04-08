@@ -400,6 +400,7 @@ public class Addcompany extends AppCompatActivity implements IPickResult {
    }else{
 
        createAccountVolley();
+       startActivity(new Intent(getApplicationContext(), CompaniesActivity.class ));
 
    }
 
